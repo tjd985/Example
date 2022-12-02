@@ -1,0 +1,65 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+img{
+  width: 40;
+  height: 40;
+
+  border-radius: 50%;
+}
+
+h1{
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  font-family: 'Lato';
+  line-height: 24px;
+
+  position: absolute;
+  top: 16px;
+  bottom: 16px;
+  left: 64px;
+  right: 121px;
+}
+
+.green-dot{
+  width: 8px;
+  height: 8px;
+  background-color: #21D891;
+
+  border: 2px solid white;
+  border-radius: 50%;
+  box-sizing: content-box;
+  
+  position: absolute;
+  top: 30px;
+  left: 30px;
+
+}
+
+.user-card{
+  width: 240px;
+  height: 56px;
+
+  position: relative;
+  background-color: white;
+
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+.user-profile{
+  width: 40px;
+  height: 40px;
+
+  position: absolute;
+  top: 8px;
+  bottom: 8px;
+  left: 12px;
+  right: 188px;
+}

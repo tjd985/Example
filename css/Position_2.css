@@ -1,0 +1,99 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.card{
+  width: 400px;
+  height: 354px;
+  background-color: white;
+  font-family: 'Noto Sans CJK KR';
+
+  position: relative;
+}
+
+.back-img{
+  width: 100%;
+  height: 240px;
+
+  position: relative;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+button{
+  display: block;
+  width: 28px;
+  height: 28px;
+  border: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#back{
+  left: 0;
+  background-image: url(../img/icon-backward.svg);
+}
+
+#forward{
+  right: 0;
+  background-image: url(../img/icon-forward.svg);
+}
+
+.contents{
+  height: 114px;
+
+  position: relative;
+}
+
+.contents>h1{
+  width: 368px;
+  height: 32px;
+
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+
+  position: absolute;
+  top: 12px;
+  bottom: 70px;
+  left: 16px;
+}
+
+.contents>p{
+  width: 88px;
+  height: 24px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7D858F;
+
+  position: absolute;
+  top: 46px;
+  left: 16px;
+}
+
+span{
+  position: absolute;
+
+  top: 78px;
+  right: 16px;
+}
+
+strong{
+  color: #2860E1;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 24px;
+}
